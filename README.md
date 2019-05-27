@@ -39,5 +39,6 @@ Se realizara una pagina web donde las personas podran entrar y ver distintos tip
 - Tener en cuenta la ortografía
 - Respecto al tablero, no lo actualizaron.
 - Tengo en cuenta que hayan actualizado el diagrama que me debían.
+- No hay información de los integrantes de este grupo en su README.md por favor me envían un correo con los integrantes.
 
 #### Nota: 3,7
