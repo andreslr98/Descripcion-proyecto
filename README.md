@@ -34,3 +34,10 @@ Se realizara una pagina web donde las personas podran entrar y ver distintos tip
     style="float: left; margin-right: 10px;"     
 />
 
+### Observaciones Entregable Uno.
+- Más orden al momento de presentar la idea.
+- Tener en cuenta la ortografía
+- Respecto al tablero, no lo actualizaron.
+- Tengo en cuenta que hayan actualizado el diagrama que me debían.
+
+#### Nota: 3,7
