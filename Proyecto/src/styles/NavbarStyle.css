@@ -1,0 +1,10 @@
+.Navbar{
+
+    width: 100%;
+    background: #ff0095; 
+}
+
+.Navbar ul{
+    list-style: none; 
+    display: table;   
+}
