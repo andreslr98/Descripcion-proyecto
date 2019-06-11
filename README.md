@@ -1,35 +1,47 @@
-#Proyecto Taller2
+#**All in Tickets.**
+
+
+
+------
+
+
+*Andres Lopez Restrepo.*
+*Juan Camilo Colorado.*
+*Juan Pablo Orozco.*
 
 
 
 
-Nombre: **All in Tickets**
 
+**Presentacion General:** 
 
-**Presentacion General**: 
+El proyecto pretende ser una plataforma que brinde fácil acceso a la compra y venta de boletería para diversos tipos de eventos, buscando que esta práctica se lleve a cabo bajos los marcos legales correspondientes, y también se tiene la intención de servir como ente mediador y ser una fuente de visibilidad para eventos creados por los usuarios.
 
-Nuestra pagina se basa en que los usuarios que pertenezcan a ella puedan comprar o vender boletas para eventos especificos (Conciertos, Futbol, Eventos, Etc.).
+**Planteamiento del problema:**
 
-**Planteamiento del problema**:
+Día a día en las distintas redes sociales podemos evidenciar la alta oferta y demanda que existe de este tipo de productos, cómo también la falta de plataformas que brinden visibilidad a eventos creados por "gente del común", sin embargo en la actualidad no se cuenta con un sitio que sirva como referente para que los usuarios acudan cuando se quiere comerciar con estos o cuando se quiere crear un evento, y debido a la diversidad de las mismas redes, ésta información tiende a disiparse y perderse.
 
- Dia a Dia en grupos de distintas redes sociales se publican miles de compra/ventas de boletas, pero estas son muy dispersas y se pierden entre otras muchas publicaciones, nuestra pagina ayuda a que esto tenga su propio lugar y con tan solo un par de clicks puedas vender o comprar tus boletas.
+**Descripcion del proceso:**
 
-**Descripcion del proceso**: 
+Se construirá una página web que brinde al usuario tres tipos de servicio: compra, venta y de boletería y creación de eventos. 
+Para la navegación en la página el usuario no tendrá ninguna restricción,pero a la hora de utilizar alguno de los servicios, es necesario que la persona haga un registro.
 
-Se realizara una pagina web donde las personas podran entrar y ver distintos tipos de boletas y podran comprar o vender en caso de tener alguna, al comprar una esta se le notificara al vendedor que se comunicara directamente con el cliente para hacer la compra.
+**Justificacion:**
 
-**Justificacion**:
+ Ésta página ayudará a optimizar la compra y venta de boletas, garantizando que estas se realicen de manera eficaz, ágil y segura. Y también servirá como ventana de exposición para eventos creados por la comunidad.
 
- esta pagina ayudara a facilitar la comprar/venta de boletas, darle un espacio a este gran mercado.
+**Descripcion de la propuesta:**
 
-**Descripcion de la propuesta**:
+Luego de haber comlpetado el registro de manera exitosa o de haber ingresado a la página con un usuario y contraseña previamente creados, el usuario podrá elegir el servicio del que desea hacer uso. En el caso de la compra y venta de boletería, la página fungirá como mediadora entre las personas que esten involucradas en este proceso, es decir un usuario que vende y uno que compra, para que dicha venta se realice de manera ágil y eficaz.
 
- el poryecto planteado permitira entrar a la pagina web donde el usuario podra registrarse o en caso de ya estarlo de ingresar, al entrar se le dara la opcion de querer comprar o venden, en la seccion de vender tendra la opcion de filtrarlo por evento (ya se concierto, boleta futbol, ETC) y subir una foto con su factura de compra y su posteriormente su precio. En la seccion de comprar se buscara por evento y apareceran todas las boletas publicadas por los usuario
+Para la cración de eventos, el usuario deberá completar un formulario con la información detallada del mismo, tal como: fecha, lugar de realización, precio de la boletería, cantidad de boletas disponibles, etc. De esta manera se crea una solicitud que es procesada para definir el costo final que tendrá para el usuario, luego de informar el costo y que el usuario proceda con la compra, se le llevará a una pasarela de pago virtual vía paypal, para de esta manera completar el proceso.
 
-**DIAGRAMA DE EXPERIENCIA DE CLIENTE**:
+Cuando un usuario desee asistir a un evento creado por algún miembro de la comunidad, se le solicitará que confirme su asistencia vía E-mail, para posteriormente, contactarlo directamente con el creador del evento.
+
+**DIAGRAMA DE EXPERIENCIA DE CLIENTE:**
 
 <img
-    src="./images/df.png"
+    src="./images/DF.jpg"
     alt="Diagrama de flujo"
     style="float: left; margin-right: 10px;"     
 />
