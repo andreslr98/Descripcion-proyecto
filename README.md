@@ -29,7 +29,7 @@ Se realizara una pagina web donde las personas podran entrar y ver distintos tip
 **DIAGRAMA DE EXPERIENCIA DE CLIENTE**:
 
 <img
-    src="./images/df.png"
+    src="../images/df.png"
     alt="Diagrama de flujo"
     style="float: left; margin-right: 10px;"     
 />
