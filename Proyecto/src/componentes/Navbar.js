@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/NavbarStyle.css'
+import Logo from '../images/ait.png'
 
 class NavbarComponent extends React.Component{
     render(){
@@ -7,11 +8,12 @@ class NavbarComponent extends React.Component{
 
             <div className="Navbar">
                 <div className="Container-Fluid">
-                    <ul className="Lista">
-                        <li><a className="Comprar" href="/">Comprar</a></li>
-                        <li><a className="Vender" href="/">Vender</a></li> 
-                        <li><a className="Crear" href="/">Crear</a></li>                       
-                    </ul>
+                    <a classname ="Navbar-Brand" href="/">
+                        <img className = "LogoNavbar" src={Logo} alt = "Logo"/>
+                        <span className= "NavbarText"> All In Tickets</span>
+                        <button className="Registrarse"> Registrarse</button>
+                        <button className="Iniciar-Sesion"> Iniciar Sesion</button>
+                    </a>
                 </div>
             </div>
         )
