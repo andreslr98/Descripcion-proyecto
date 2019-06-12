@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet');
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aqua;
+}
+h1 {
+    font-family: 'Yanone', 'Kaffeesatz';
+}

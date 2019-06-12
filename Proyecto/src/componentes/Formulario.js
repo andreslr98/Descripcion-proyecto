@@ -24,7 +24,7 @@ class FormularioComponent extends React.Component{
     render(){
         return(
             <div className= "Formulario-General">
-                <h2 className="Header-Formulario">Registro de Usuario</h2>
+                <h1 className="Header-Formulario">Registro de Usuario</h1>
 
                 <form onSubmit={this.handleSumbit}>
 
