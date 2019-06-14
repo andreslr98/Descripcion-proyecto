@@ -28,39 +28,39 @@ class FormularioComponent extends React.Component{
 
                 <form onSubmit={this.handleSumbit}>
 
-                    <div className="Formulario">                        
-                        <label>Nombres</label>
-                        <input/>                    
+                    <div className="Nombres">                        
+                        <label className= "labels">Nombres</label>
+                        <input className="inputNombres"/>                    
                     </div>
 
-                    <div className="Formulario">                       
-                        <label>Apellidos</label>
-                        <input/>                         
+                    <div className="Apellidos">                       
+                        <label className= "labels">Apellidos</label>
+                        <input className="inputApellidos"/>                         
                    </div>
 
-                    <div className="Formulario">
-                        <label>Cedula</label>
-                        <input/>  
+                    <div className="Cedula">
+                        <label className= "labels">Cedula</label>
+                        <input className="inputCedula"/>  
                     </div>
 
                     <div className="Formulario">   
-                        <label>Correo electrónico</label>
-                        <input/>  
+                        <label className= "labels">Correo electrónico</label>
+                        <input className="inputCorreo"/>  
                     </div>
 
                     <div className="Formulario">   
-                        <label>Teléfono/Celular</label>
-                        <input/> 
+                        <label className= "labels">Teléfono/Celular</label>
+                        <input className="inputCelular"/> 
                     </div>
 
                     <div className="Formulario">   
-                        <label>Dirección</label>
-                        <input/>  
+                        <label className= "labels">Dirección</label>
+                        <input className="inputDireccion"/>  
                     </div>
 
                     <div className="Formulario">   
-                        <label>Contraseña</label>
-                        <input/>  
+                        <label className= "labels">Contraseña</label>
+                        <input className="inputContraseña"/>  
                     </div>
 
                     <button onClick={this.handleClick}  className="Guardar">Guardar</button>

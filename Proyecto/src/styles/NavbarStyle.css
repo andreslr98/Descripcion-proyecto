@@ -1,7 +1,7 @@
 .Navbar{
 
     width: 100%;
-    background: #02007aec;
+    background: #fc7303f1;
     padding: 0.5rem; 
 }
 
@@ -11,10 +11,10 @@
 }
 
 .NavbarText{
-
-    font-size: 70px;
-    color: #ffffff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', 'sans-serif';
+    font-size: 90px;
+    color: black;
+    font-style: italic;
 }
 
 .NavbarText:hover{
