@@ -1,8 +1,10 @@
-.Navbar{
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet');
 
+
+.Navbar{
     width: 100%;
     background: #efb810;
-    padding: 0.5rem; 
+    padding: 0.2%; 
 }
 
 .Navbar ul{
@@ -13,7 +15,7 @@
 .NavbarText{
     font-family: 'Anton', 'sans-serif';
     font-size: 90px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-style: italic;
 }
 

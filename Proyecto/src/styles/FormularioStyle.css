@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
 
+
 .Formulario-General{
     background-image: url("https://cdn7.dissolve.com/p/D1234_4_639/D1234_4_639_1200.jpg")
 }
 
 .Header-Formulario{
     font-family: 'Anton', 'sans-serif';
-    color: black;
-    font-style: italic;
+    color: #fcfcfc;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(0, 0, 0);
+    font-size: 45px
 }
 .labels{
     font-family: 'Anton', 'sans-serif';
-    color: rgb(255, 255, 255);
-    text-shadow: 4rem,3rem,2rem black;
+    color: rgb(255, 255, 255,);
+    text-shadow: 0 0 2px rgb(2, 0, 112);
+    font-size: 15px;
 }
 
 .inputNombres{
