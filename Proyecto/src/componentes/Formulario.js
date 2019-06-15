@@ -9,7 +9,7 @@ class FormularioComponent extends React.Component{
     state={};
 //EVENTOS DE CONTROL PARA EL ESTADO DEL FORMULARIO, ESTOS SE USAN MAS ADELANTE PARA CAMBIAR O ENVIAR LA INFORMACION QUE DIJITA EL USUARIO A TRAVES DE LOS BOTONES
     handleClick = e =>{
-        console.log("BOTON PRESIONADO, SAPAPERRA.")
+        console.log("BOTON PRESIONADO.")
     };
 
     handleSumbit = e=>{
@@ -49,8 +49,8 @@ class FormularioComponent extends React.Component{
                     </div>
 
                     <div className="Formulario">   
-                        <label className= "labels">Teléfono/Celular</label>
-                        <input className="inputCelular"/> 
+                        <label className= "labels">Contraseña</label>
+                        <input className="inputContraseña"/> 
                     </div>
 
                     <div className="Formulario">   
@@ -59,13 +59,16 @@ class FormularioComponent extends React.Component{
                     </div>
 
                     <div className="Formulario">   
-                        <label className= "labels">Contraseña</label>
-                        <input className="inputContraseña"/>  
+                        <label className= "labels">Teléfono/Celular</label>
+                        <input className="inputCelular"/>  
                     </div>
 
                     <button onClick={this.handleClick}  className="Guardar">Guardar</button>
                 </form>
+                
             </div>
+
+            
         )
 
 }
