@@ -29,21 +29,32 @@ final de la compra se podrá escoger su medio de pago.
 
 **Modelo entidad relacion de All In Tickets**
 
-<img src="./images/MER.png">
-
+<img
+    src="./images/MER.png"
+    alt="Modelo entidad relacion"
+    style="float: left; margin-right: 10px;"     
+/>
 
 ---
 
 **Diagrama UML - Diagrama caso de uso**
 
-<img src="./images/UML.png">
-
+<img
+    src="./images/UML.png"
+    alt="Diagrama de caso de uso"
+    style="float: left; margin-right: 10px;"     
+/>
 
 
 ---
 
 **Mockup pagina principal**
 
-<img src="./images/Mockup.jpeg">
+<img
+    src="./images/Mockup.jpeg"
+    alt="Mockup principal"
+    style="float: left; margin-right: 10px;"     
+/>
+
 
 ---
