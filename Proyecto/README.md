@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>PROYECTO ALL IN TICKETS</h1>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<h4>Universo del discurso All-In-Tickets</h4>
 
-### `npm start`
+Se requiere llevar los datos del proyecto *All in tickets*, para ello se deben de tener en cuenta
+lo siguiente
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Se lleva el control del registro del usuario, a este se le pedirán los siguientes datos:
+Cedula (con este se verifica que sea mayor de edad para asistir a algunos eventos
+con dicha restricción) nombre, apellido, correo electrónico, contraseña, dirección y
+teléfono, de lo cual al momento del ingreso en la página solo se deberá tener en
+cuenta el correo y la contraseña.
+2. Se lleva control de la creación de eventos, estos tendrán la siguiente información:
+Ubicación, dirección del evento, capacidad, fecha del evento y una breve
+descripción de este mismo (Música, partido, etc...) Se debe tener en cuenta que un
+usuario puede crear un evento en la página pero este solo será publicado si un
+administrador de la página lo aprueba al confirmar que la información sea verídica,
+así se llevara control de la página y evitar posibles eventos falsos.
+3. La boleta para dichos eventos será totalmente virtual y será creada por el usuario y
+publicada por la pagina cuando el administrador confirme el evento, la boleta debe
+tener los siguientes datos en ella: identificación única para cada boleta (ID), tipo de
+boleta, ubicación de la boleta.
+4. Al comprar una boleta, esta deberá llevar las siguientes especificaciones: Nombre
+del evento a la que pertenecer la boleta, su precio, Ubicación del evento, numero de
+boletas que desea comprar (este tendrá un límite de 3 boletas por cedula), también al
+final de la compra se podrá escoger su medio de pago.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+**Modelo entidad relacion de All In Tickets**
 
-### `npm test`
+<img src="./images/MER.png">
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Diagrama UML - Diagrama caso de uso**
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+<img src="./images/UML.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Mockup pagina principal**
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="./images/Mockup.jpeg">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
