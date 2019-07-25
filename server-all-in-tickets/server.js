@@ -1,19 +1,21 @@
 const express = require('express');
 const bodyParser = require('body-parser')
+const cors = require('cors');
 
-//app
+
+
 const app = express();
 
-//middlewares
+
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json())
-
+app.use(cors());
 //routes
 const profileApiRouter = require('./routes/profileApi')
 
 
 
-//routes
+
 app.use('/profileApi', profileApiRouter)
 
 const server = app.listen(5800, ()=>{
