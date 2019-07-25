@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet');
+
+
+.Navbar{
+    width: 100%;
+    background: #efb810;
+    padding: 0.2%; 
+}
+
+.Navbar ul{
+    list-style: none; 
+    display: table;   
+}
+
+.NavbarText{
+    font-family: 'Anton', 'sans-serif';
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.NavbarText:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Navbar-Brand{
+    display: flex;
+    align-items: center;
+}
+
+.LogoNavbar{
+width: 80px;
+height: 80px;
+}
+
+.Registrarse{
+    margin-left: 75rem;
+    margin-right: 0.5em;
+}
+
+.Iniciar-Sesion{
+    margin-left: 0.2rem;
+    margin-right: 0.2em;
+}
